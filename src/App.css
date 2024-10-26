@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  margin: 20px;
+}
+
+.input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.button {
+  padding: 10px;
+}
+
+.weather {
+  margin-top: 20px;
+}
+.forecast {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.forecast-day {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 120px;
+}
+
+@media (max-width: 600px) {
+  .forecast {
+    flex-direction: column;
+  }
+}
+
+
+
